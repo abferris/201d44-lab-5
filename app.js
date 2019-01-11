@@ -135,7 +135,7 @@ function multiplyAnyArray(array) { //eslint-disable-line
   for (var i=0; i<array.length; i++){
    dynresult = multiply(dynresult, array[i])[0];
 }
-var dynresponse = `The numbers ${array} have a product of ${dynresult}.`
+var dynresponse = `The numbers ${array} have a product of ${dynresult}.` ;
 return [dynresult,dynresponse];
 }
 
